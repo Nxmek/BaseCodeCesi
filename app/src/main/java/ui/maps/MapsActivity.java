@@ -106,7 +106,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     private View mBottomSheet;
     private BottomSheetLayout mBottomSheetLayout;
 
-    private TextView infoComerce;
+    private TextView infoCommerce;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
