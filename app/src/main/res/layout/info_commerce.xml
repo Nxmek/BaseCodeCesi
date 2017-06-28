@@ -13,7 +13,7 @@
         <TextView
             android:id="@+id/commerce"
             android:layout_width="fill_parent"
-            android:layout_height="80dp"
+            android:layout_height="80px"
             android:background="@color/blue"
             android:gravity="center_vertical"
             android:paddingLeft="25px"

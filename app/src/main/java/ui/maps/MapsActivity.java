@@ -22,7 +22,7 @@ import java.util.List;
 
 import fr.cesi.basecode.R;
 
-public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
+public class                                                                    MapsActivity extends FragmentActivity implements OnMapReadyCallback {
 
     private ArrayList<Marker> _my_markers;
 
