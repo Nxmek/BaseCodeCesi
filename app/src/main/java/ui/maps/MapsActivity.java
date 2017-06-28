@@ -103,18 +103,3 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
 
 
-    private View mBottomSheet;
-    private BottomSheetLayout mBottomSheetLayout;
-
-    private TextView infoCommerce;
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_maps);
-
-        mBottomSheetLayout = (BottomSheetLayout) findViewById(R.id.bottomsheet);
-
-        mBottomSheet = LayoutInflater.from(this)
-                .inflate(R.layout.info_commerce, mBottomSheetLayout, false);
-    }
